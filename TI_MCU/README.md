@@ -1,4 +1,6 @@
-#TI MSP430FR5994 LaunchPad Development Kit.
+TI MSP430FR5994 LaunchPad Development Kit.
+-
+
 
 https://www.ti.com/tool/MSP-EXP430FR5994#technicaldocuments
 
