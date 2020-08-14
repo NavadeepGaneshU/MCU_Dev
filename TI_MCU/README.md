@@ -9,7 +9,7 @@ https://www.ti.com/tool/MSP-EXP430FR5994#technicaldocuments
 
 [x] Special concerns to be taken while using TI CCS on MSP430 (specially with Assembly codes)
 
->> First time debugging will take forever! Please hold on. If this process is interrupted, project file is going to be ruined.
->> Never have special characters or blank spaces in project directory path or name.
->> Concerns have been raised that having WinAVR installed in your PC may cause debugging issues in MSP430 (Assembly code specifically)
-   I had the same issue and spent hours together unit finally saw someone saying this over TI forum.
+1] First time debugging will take forever! Please hold on. If this process is interrupted, project file is going to be ruined.
+2] Never have special characters or blank spaces in project directory path or name.
+3] Concerns have been raised that having WinAVR installed in your PC may cause debugging issues in MSP430 (Assembly code specifically)
+P.S - I had the same issue and spent hours together unit finally saw someone saying this over TI forum.
