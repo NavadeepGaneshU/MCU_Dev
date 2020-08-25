@@ -19,9 +19,10 @@ int main(void)
 	    P1OUT ^= BIT0;          //Toggle LED1
 	    for (i=0; i<0xFFFF; i++)
 	   
-     {
+             {
 	                            //keep cycling a delay
-	    }
+	     }
+		
 	}
 	   return 0;
 }
