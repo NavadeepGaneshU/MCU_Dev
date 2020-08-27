@@ -1,5 +1,5 @@
 /*
-;Simple program for ACLK Timer implementation with C Code.
+;Simple program for 32 KHz ACLK Timer implementation with C Code.
 ;Hardwrae used : MSP430FR5994 Launchpad DevKit.
 ;Software used : Code Composer Studio 9.3.0
 */
