@@ -1,6 +1,8 @@
+/*
 ;Simple program to Blink LED using C.
 ;Hardwrae used : MSP430FR5994 Launchpad DevKit.
 ;Software used : Code Composer Studio 9.3.0
+*/
 
 #include <msp430.h> 
 
