@@ -1,5 +1,5 @@
 /*
-;Simple progra for UART-Tx implementation with C Code.
+;Simple program for UART-Tx implementation with C Code.
 ;Hardwrae used : MSP430FR5994 Launchpad DevKit.
 ;Software used : Code Composer Studio 9.3.0
 */
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	WDTCTL = WDTPW | WDTHOLD;	   // stop watchdog timer
+	WDTCTL = WDTPW | WDTHOLD;    // stop watchdog timer
 	
 	UCA1CTLW0 |= UCSWRST;        //put UART A1 into SW reset
 
@@ -16,7 +16,7 @@ int main(void)
 	UCA1BRW = 8;                 //set prescaler to 8
 	UCA1MCTLW |= 0xD600;         //configure modulation settings and low freq
 
-	P4SEL1 &= ~BIT3;             //P4SEL1.3 ; P4SEL0.3 = 0
+	P4SEL1 &= ~BIT3;
 	P4SEL0 |= BIT3;              // puts UART A1 on P4.3
 
 	PM5CTL0 &= ~LOCKLPM5;        // turn on IO
