@@ -9,8 +9,9 @@
 void UARTInit(void);
 void TXData(unsigned char c);
 
-void main(void){
-     WDTCTL = WDTPW + WDTHOLD;// watchdog timer kapali
+void main(void)
+{
+     WDTCTL = WDTPW + WDTHOLD;
      
      CSCTL0_H = CSKEY >> 8;                                 // Unlock CS registers
      CSCTL1 = DCOFSEL_3 | DCORSEL;                          //Set DCO to 8MHz
@@ -37,7 +38,8 @@ void main(void){
 
 }
 
-void UARTInit(void){
+void UARTInit(void)
+{
     P6SEL1 &= ~(BIT0 | BIT1);
     P6SEL0 |= (BIT0 | BIT1);                    // USCI_A3 UART operation
 
@@ -50,7 +52,8 @@ void UARTInit(void){
     UCA3IE |= UCRXIE;
 }
 
-void TXData(unsigned char c){
+void TXData(unsigned char c)
+{
     while(!(UCA3IFG & UCTXIFG));
     UCA3TXBUF = c;
 }
