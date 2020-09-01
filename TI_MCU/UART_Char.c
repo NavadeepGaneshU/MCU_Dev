@@ -62,7 +62,7 @@ void TXData(unsigned char c)
    __interrupt void Port_5(void)
    {
        P1OUT ^= BIT0;
-       TXData('A');
+       TXData('c');
        __delay_cycles(400000);                //prevent multiple bounces
 
       P5IFG &= ~BIT5;
