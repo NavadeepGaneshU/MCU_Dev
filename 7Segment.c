@@ -1,3 +1,8 @@
+/*
+;Simple program to implement toggle counter with 7 Segment display with C Code.
+;Hardwrae used : MSP430FR5994 Launchpad DevKit.
+;Software used : Code Composer Studio 9.3.0
+*/
 #include <msp430.h>
 
 #define SW      BIT6     // Switch -> P5.6
