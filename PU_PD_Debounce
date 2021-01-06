@@ -29,11 +29,12 @@ void main(void)
 	    }
 	}
 */
+	//debounce using predefined delay cycles
 	while(1)
 	    {
 	        if(P1IN & SW)                           //if SW is pressed
 	        {
-	            __delay_cycles(20000);  		//debounce time of 20
+	            __delay_cycles(20000);  		//debounce time
 	            while(P1IN & SW);   	        //wait till release
 	            __delay_cycles(20000);
 	            P1OUT ^= LED;                       //turn ON LED
