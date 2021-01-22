@@ -41,7 +41,7 @@ void main(void)
 void UARTInit(void)
 {
     P6SEL1 &= ~(BIT0 | BIT1);
-    P6SEL0 |= (BIT0 | BIT1);                    // USCI_A3 UART operation
+    P6SEL0 |= (BIT0 | BIT1);                   // USCI_A3 UART operation
 
     UCA3CTLW0 = UCSWRST;                       // Put eUSCI in reset
     UCA3CTLW0 |= UCSSEL__SMCLK;                // CLK = SMCLK
@@ -63,7 +63,7 @@ void TXData(unsigned char c)
    {
        P1OUT ^= BIT0;
        TXData('c');
-       __delay_cycles(400000);                //prevent multiple bounces
+       __delay_cycles(400000);                 //prevent multiple bounces
 
       P5IFG &= ~BIT5;
    }
