@@ -2,7 +2,7 @@
 ;Hardwrae used : MSP430FR5994 Launchpad DevKit.
 ;Software used : Code Composer Studio 9.3.0
 
-;1] ABLOSUTE MODE ADDRESSING
+			;1] ABLOSUTE MODE ADDRESSING
 ;-------------------------------------------------------------------------------
 ; Main loop here
 ;-------------------------------------------------------------------------------
@@ -31,8 +31,47 @@ Var1:	.space		2					    ;Reserve 2 bytes
 var2:	.space		2					    ;Reserve 2 bytes
 
 
+			;2] REGISTER MODE ADDRESSING
+;-------------------------------------------------------------------------------
+; Main loop here
+;-------------------------------------------------------------------------------
 
-;2] SYMBOLIC MODE ADDRESSING
+main:
+		mov.w	PC, R4						;copy PC to R4
+		mov.w   R4,	R5
+		mov.w   R5, R6
+
+		mov.b	PC, R7						;copy LB of PC into R7
+		mov.b   R7, R8
+		mov.b  	R8, R9
+
+		jmp main							;repeat main loop
+		NOP
+		
+
+			;3] IMMEDIATE MODE ADDRESSING
+;-------------------------------------------------------------------------------
+; Main loop here
+;-------------------------------------------------------------------------------
+
+main:
+			mov.w	#1234h, R4				;put 1234h to R4
+			mov.w	#0FACEh, R5				;put FACE text into R5
+
+			mov.b	#99h, R6				;put 99h num to R6
+			mov.b	#0EEh, R7				;put EEh text into R7
+
+			mov.b	#87, R8				    ;put decimal to R8
+			mov.b	#10101010b, R9			;put decimal to R9
+			mov.b	#"B", R10				;put B ASCII to R10
+
+			jmp		main
+			NOP
+                                            
+
+			
+			
+			;4] SYMBOLIC MODE ADDRESSING
 ;-------------------------------------------------------------------------------
 ; Main loop here
 ;-------------------------------------------------------------------------------
