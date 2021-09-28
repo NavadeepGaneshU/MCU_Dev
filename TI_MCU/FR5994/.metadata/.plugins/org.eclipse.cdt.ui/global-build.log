@@ -1,0 +1,1863 @@
+
+**** Build of configuration Debug for project Asm_FlowChart ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_FlowChart" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+3 Assembly Errors, No Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 32: [E0001] Undefined symbol
+				mov.w	#0, Fit
+ 
+"../main.asm", ERROR!   at line 36: [E0001] Undefined symbol
+				mov.w	#1, Fit
+ 
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  Fit
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_FlowChart ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_FlowChart" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_FlowChart.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_FlowChart.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_FlowChart_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_FlowChart.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_FlowChart.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_FlowChart ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Asm_FlowChart.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_FlowChart ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Asm_FlowChart.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_FlowChart ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Asm_FlowChart.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Digital_IO" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Digital_IO.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Digital_IO.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Digital_IO_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Digital_IO.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Digital_IO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Digital_IO" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Digital_IO.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Digital_IO.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Digital_IO_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Digital_IO.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Digital_IO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IO_Polling ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IO_Polling" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IO_Polling.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IO_Polling.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IO_Polling_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IO_Polling.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IO_Polling.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IO_Polling ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IO_Polling" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IO_Polling.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IO_Polling.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IO_Polling_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IO_Polling.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IO_Polling.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IO_Polling ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IO_Polling" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IO_Polling.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IO_Polling.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IO_Polling_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IO_Polling.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IO_Polling.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQ_LED ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IRQ_LED" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 37: [W0005] NOP required before set of GIE bit.
+	          	eint
+ 
+"../main.asm", WARNING! at line 37: [W0005] NOP required after set or clear of GIE bit.
+	          	eint
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQ_LED.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQ_LED.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQ_LED_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQ_LED.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10247-D: creating output section "int22" without a SECTIONS specification
+Finished building target: "Asm_IRQ_LED.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQ_LED ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IRQ_LED" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 37: [W0005] NOP required before set of GIE bit.
+	          	eint
+ 
+"../main.asm", WARNING! at line 37: [W0005] NOP required after set or clear of GIE bit.
+	          	eint
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQ_LED.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQ_LED.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQ_LED_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQ_LED.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10247-D: creating output section "int22" without a SECTIONS specification
+Finished building target: "Asm_IRQ_LED.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Asm_Digital_IO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_FlowChart ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Asm_FlowChart.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IO_Polling ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IO_Polling" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IO_Polling.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IO_Polling.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IO_Polling_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IO_Polling.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IO_Polling.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQ_LED ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_IRQ_LED" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 37: [W0005] NOP required before set of GIE bit.
+	          	eint							;enable global maskables
+ 
+"../main.asm", WARNING! at line 37: [W0005] NOP required after set or clear of GIE bit.
+	          	eint							;enable global maskables
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQ_LED.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQ_LED.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQ_LED_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQ_LED.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+warning #10247-D: creating output section "int22" without a SECTIONS specification
+Finished building target: "Asm_IRQ_LED.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, No Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  TBSSEL_ACLK
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, 2 Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint
+ 
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  TBSSEL_ACLK
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timer_PWM.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timer_PWM.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timer_PWM_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timer_PWM.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timer_PWM.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timer_PWM.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timer_PWM.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timer_PWM_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timer_PWM.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timer_PWM.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/Asm_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timer_PWM.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timer_PWM.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timer_PWM_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timer_PWM.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timer_PWM.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Digital_IO" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 28: warning #112-D: statement is unreachable
+"../main.c", line 22: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 22: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Digital_IO.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Digital_IO.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Digital_IO_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Digital_IO.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Digital_IO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'C_Digital_IO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'C_Digital_IO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Digital_IO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Digital_IO" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 28: warning #112-D: statement is unreachable
+"../main.c", line 22: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 22: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Digital_IO.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Digital_IO.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Digital_IO_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Digital_IO.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Digital_IO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Polling_DIO ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Polling_DIO" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "C_Polling_DIO.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Polling_DIO.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Polling_DIO_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Polling_DIO.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Polling_DIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 17: error #66: expected a ";"
+"../main.c", line 19: error #20: identifier "TBOCTL" is undefined
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 19: error #20: identifier "TBOCTL" is undefined
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 22: error #20: identifier "TBOCTL" is undefined
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_ACLK1.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_ACLK1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_ACLK1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_ACLK1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_ACLK1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK2 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK2" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 17: error #66: expected a ";"
+"../main.c", line 30: warning #112-D: statement is unreachable
+"../main.c", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK2 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK2" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 30: warning #112-D: statement is unreachable
+"../main.c", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_ACLK2.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_ACLK2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_ACLK2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_ACLK2.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_ACLK2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_ACLK2 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_ACLK2" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 30: warning #112-D: statement is unreachable
+"../main.c", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_ACLK2.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_ACLK2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_ACLK2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_ACLK2.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_ACLK2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_TimeR_SMCLK1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_TimeR_SMCLK1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 25: warning #112-D: statement is unreachable
+"../main.c", line 23: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_TimeR_SMCLK1.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_TimeR_SMCLK1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_TimeR_SMCLK1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_TimeR_SMCLK1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_TimeR_SMCLK1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_SMCLK2" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 13: error #66: expected a ";"
+"../main.c", line 16: error #20: identifier "ID_4" is undefined
+"../main.c", line 26: warning #112-D: statement is unreachable
+"../main.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_SMCLK2" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 16: error #20: identifier "ID_4" is undefined
+"../main.c", line 26: warning #112-D: statement is unreachable
+"../main.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_SMCLK2" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 26: warning #112-D: statement is unreachable
+"../main.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_SMCLK2.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_SMCLK2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_SMCLK2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_SMCLK2.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_SMCLK2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_Cmp ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_Cmp" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 26: warning #112-D: statement is unreachable
+"../main.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_Cmp.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_Cmp.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_Cmp_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_Cmp.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_Cmp.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_PWM.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_PWM.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_PWM_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_PWM.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_PWM.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_PWM ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_Timer_PWM" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_PWM.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_PWM.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_PWM_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_PWM.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_PWM.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 14: error #20: identifier "UCA1CTW0" is undefined
+"../main.c", line 28: error #20: identifier "i" is undefined
+"../main.c", line 31: warning #112-D: statement is unreachable
+"../main.c", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 28: error #20: identifier "i" is undefined
+"../main.c", line 31: warning #112-D: statement is unreachable
+"../main.c", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+"../main.c", line 29: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx1.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 28: warning #112-D: statement is unreachable
+"../main.c", line 25: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx1.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 25: error #20: identifier "UCATX1BUF" is undefined
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx1.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'C_UART_Tx1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'C_UART_Tx1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\TI\\CCS10\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/TI/CCS10/ccs/ccs_base/msp430/include" --include_path="D:/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx1.out"
+Invoking: MSP430 Linker
+"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/TI/CCS10/ccs/ccs_base/msp430/include" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/TI/CCS10/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/lib" -i"D:/TI/CCS10/ccs/tools/compiler/ti-cgt-msp430_20.2.4.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx1.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "C_UART_Tx1.hex"  "C_UART_Tx1.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx1" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 29: warning #112-D: statement is unreachable
+"../main.c", line 26: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx1.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx1.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx1_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx1.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx1 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'C_UART_Tx1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 32: error #66: expected a ";"
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 25: warning #179-D: variable "i" was declared but never referenced
+"../main.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 34: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 32: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 32: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 34: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx4_string.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx4_string.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx4_string_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx4_string.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx4_string.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'C_UART_Tx4_string.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 32: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 32: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 34: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx4_string.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx4_string.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx4_string_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx4_string.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx4_string.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 37: warning #112-D: statement is unreachable
+"../main.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 32: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 32: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 34: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx4_string.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx4_string.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx4_string_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx4_string.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx4_string.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 38: warning #112-D: statement is unreachable
+"../main.c", line 30: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 32: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 33: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx4_string.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx4_string.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx4_string_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx4_string.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx4_string.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 30: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 32: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 33: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx4_string.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx4_string.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx4_string_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx4_string.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx4_string.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_UART_Tx4_string ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_UART_Tx4_string" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 36: warning #112-D: statement is unreachable
+"../main.c", line 28: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 30: remark #2553-D: (ULP 14.1) Array index (involving "position") of type "int". Recommend using "unsigned int"
+"../main.c", line 31: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_UART_Tx4_string.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_UART_Tx4_string.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_UART_Tx4_string_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_UART_Tx4_string.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_UART_Tx4_string.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 50: warning #112-D: statement is unreachable
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 50: warning #112-D: statement is unreachable
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 50: warning #112-D: statement is unreachable
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 50: warning #112-D: statement is unreachable
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "C_Timer_SMCLK2.hex"  "C_Timer_SMCLK2.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_Timer_SMCLK2" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 26: warning #112-D: statement is unreachable
+"../main.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "C_Timer_SMCLK2.out"
+Invoking: MSP430 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"C_Timer_SMCLK2.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"D:/Softwares/TI/ccs/ccs_base/msp430/include" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"D:/Softwares/TI/ccs/ccs_base/msp430/lib/FR59xx" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="C_Timer_SMCLK2_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "C_Timer_SMCLK2.out" "./main.obj" "../lnk_msp430fr5994.cmd"  -llibmpu_init.a -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10436-D: (ULP 6.3) Detected use of a device with a Low Energy Accelerator (LEA) but application does not appear to use LEA. Recommend offloading vector math and signal processing to LEA for improved performance.
+Finished building target: "C_Timer_SMCLK2.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'C_Timer_SMCLK2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Timer_SMCLK2 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/C_Timer_SMCLK2" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 55: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 55: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 56: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 57: error #20: identifier "ADCON" is undefined
+"../main.c", line 59: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 59: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 60: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 62: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 62: error #20: identifier "ADCRES" is undefined
+"../main.c", line 63: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 65: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 65: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 69: error #20: identifier "ADCENC" is undefined
+"../main.c", line 69: error #20: identifier "ADCSC" is undefined
+"../main.c", line 71: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 71: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 73: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 87: warning #112-D: statement is unreachable
+"../main.c", line 71: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 50: warning #112-D: statement is unreachable
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 50: warning #112-D: statement is unreachable
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 18: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 18: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 19: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 20: error #20: identifier "ADCON" is undefined
+"../main.c", line 22: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 22: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 25: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 25: error #20: identifier "ADCRES" is undefined
+"../main.c", line 26: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 28: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 28: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCENC" is undefined
+"../main.c", line 32: error #20: identifier "ADCSC" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 34: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 36: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 4: fatal error #1965: cannot open source file "hw_types.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 20: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 20: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 21: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 22: error #20: identifier "ADCON" is undefined
+"../main.c", line 24: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 24: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 25: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 27: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 27: error #20: identifier "ADCRES" is undefined
+"../main.c", line 28: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 30: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 30: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 34: error #20: identifier "ADCENC" is undefined
+"../main.c", line 34: error #20: identifier "ADCSC" is undefined
+"../main.c", line 36: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 36: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 38: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 5: fatal error #1965: cannot open source file "driverlib.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 22: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 22: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 24: error #20: identifier "ADCON" is undefined
+"../main.c", line 26: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 26: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 27: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 29: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 29: error #20: identifier "ADCRES" is undefined
+"../main.c", line 30: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 32: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 36: error #20: identifier "ADCENC" is undefined
+"../main.c", line 36: error #20: identifier "ADCSC" is undefined
+"../main.c", line 38: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 38: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 40: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 38: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Asm_Digital_IO,org.eclipse.launchbar.core.descriptorType.default\:Asm_FlowChart,org.eclipse.launchbar.core.descriptorType.default\:Asm_IO_Polling,org.eclipse.launchbar.core.descriptorType.default\:Asm_IRQ_LED,org.eclipse.launchbar.core.descriptorType.default\:Asm_Timer_PWM,org.eclipse.launchbar.core.descriptorType.default\:C_Digital_IO,org.eclipse.launchbar.core.descriptorType.default\:C_Polling_DIO,org.eclipse.launchbar.core.descriptorType.default\:C_TimeR_SMCLK1,org.eclipse.launchbar.core.descriptorType.default\:C_Timer_ACLK1,org.eclipse.launchbar.core.descriptorType.default\:C_Timer_ACLK2,org.eclipse.launchbar.core.descriptorType.default\:C_Timer_Cmp,org.eclipse.launchbar.core.descriptorType.default\:C_Timer_PWM,org.eclipse.launchbar.core.descriptorType.default\:C_UART_Tx1,org.eclipse.launchbar.core.descriptorType.default\:C_UART_Tx4_string,org.eclipse.launchbar.core.descriptorType.default\:C_Timer_SMCLK2,org.eclipse.launchbar.core.descriptorType.default\:ADC_sampling_pin
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ADC_sampling_pin/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ADC_sampling_pin/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Asm_Digital_IO/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Asm_Digital_IO/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Asm_FlowChart/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Asm_FlowChart/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Asm_IO_Polling/activeLaunchMode=debug

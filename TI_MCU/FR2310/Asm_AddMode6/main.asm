@@ -1,0 +1,60 @@
+;-------------------------------------------------------------------------------
+; MSP430 Assembler Code Template for use with TI Code Composer Studio
+;
+;
+;-------------------------------------------------------------------------------
+            .cdecls C,LIST,"msp430.h"       ; Include device header file
+            
+;-------------------------------------------------------------------------------
+            .def    RESET                   ; Export program entry-point to
+                                            ; make it known to linker.
+;-------------------------------------------------------------------------------
+            .text                           ; Assemble into program memory.
+            .retain                         ; Override ELF conditional linking
+                                            ; and retain current section.
+            .retainrefs                     ; And retain any sections that have
+                                            ; references to current section.
+
+;-------------------------------------------------------------------------------
+RESET       mov.w   #__STACK_END,SP         ; Initialize stackpointer
+StopWDT     mov.w   #WDTPW|WDTHOLD,&WDTCTL  ; Stop watchdog timer
+
+
+;--------- ----------------------------------------------------------------------
+; Main loop here
+;-------------------------------------------------------------------------------
+;Indirect Auto Mode Addressing
+main:
+			mov.w	#Block1, R4				;setup initial address pointer
+			mov.w	@R4+, R5				;16-bit operation. + gives increment of 2
+			mov.w	@R4+, R6
+			mov.w	@R4+, R7
+
+			mov.b	@R4+, R8				;8-bit operation. Only low byte(88) is moved with 1 increment from +
+											;77 is high byte is moved to next address
+			mov.b	@R4+, R9
+			mov.b	@R4+, R10
+
+			jmp		main
+			NOP
+                                            
+;-------------------------------------------------------------------------------
+; Memory Allocation
+;-------------------------------------------------------------------------------
+			.data							;goto data memory at 2000h (from datasheet)
+			.retain							;skip optimisation
+
+Block1:		.short	1122h, 3344h,5566h, 7788h, 99AAh ;create block of constants
+
+;-------------------------------------------------------------------------------
+; Stack Pointer definition
+;-------------------------------------------------------------------------------
+            .global __STACK_END
+            .sect   .stack
+            
+;-------------------------------------------------------------------------------
+; Interrupt Vectors
+;-------------------------------------------------------------------------------
+            .sect   ".reset"                ; MSP430 RESET Vector
+            .short  RESET
+            

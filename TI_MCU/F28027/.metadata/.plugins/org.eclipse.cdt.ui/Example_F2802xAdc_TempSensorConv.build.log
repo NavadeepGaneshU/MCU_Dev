@@ -1,0 +1,18 @@
+
+**** Build of configuration RAM for project Example_F2802xAdc_TempSensorConv ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../Example_2802xAdc_TempSensorConv.c"
+Invoking: C2000 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/bin/cl2000" -v28 -ml -mt -O2 --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/include" --include_path="D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/common/include" --include_path="D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/headers/include" --include_path="D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x" --include_path="D:/Softwares/TI/C2000Ware_3_04_00_00_Software/libraries/math/IQmath/c28/include" --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="Example_2802xAdc_TempSensorConv.d_raw"  "../Example_2802xAdc_TempSensorConv.c"
+Finished building: "../Example_2802xAdc_TempSensorConv.c"
+ 
+Building target: "Example_F2802xAdc_TempSensorConv.out"
+Invoking: C2000 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/bin/cl2000" -v28 -ml -mt -O2 --define=_DEBUG --define=LARGE_MODEL -g --diag_suppress=10063 --diag_warning=225 --verbose_diagnostics --quiet -z -m"Example_F2802xAdc_TempSensorConv.map" --stack_size=0x200 --warn_sections -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/include" -i"D:/Projects/MCU_Dev/TI_MCU/F28027/Example_F2802xAdc_TempSensorConv" -i"D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/common/lib" -i"D:/Softwares/TI/C2000Ware_3_04_00_00_Software/libraries/math/IQmath/c28/lib" --reread_libs --issue_remarks --verbose_diagnostics --xml_link_info="Example_F2802xAdc_TempSensorConv_linkInfo.xml" --entry_point=code_start --rom_model -o "Example_F2802xAdc_TempSensorConv.out" "./Example_2802xAdc_TempSensorConv.obj" "D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/headers/cmd/F2802x_Headers_nonBIOS.cmd" "D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/common/ccs/Debug/driverlib.lib"  -l"D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/common/cmd/F2802x_generic_ram.cmd" -lrts2800_ml.lib -lIQmath.lib 
+remark: linking in "IQmath_coff.lib" in place of index library "IQmath.lib"
+Finished building target: "Example_F2802xAdc_TempSensorConv.out"
+ 
+
+**** Build Finished ****

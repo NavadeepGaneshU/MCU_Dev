@@ -1,0 +1,34 @@
+
+**** Build of configuration Debug for project ADC_sampling_pin ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="D:/Softwares/TI/ccs/ccs_base/msp430/include" --include_path="D:/Projects/MCU_Dev/TI_MCU/FR5994/ADC_sampling_pin" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR5994__ --define=_MPU_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 22: error #20: identifier "ADCCTL0" is undefined
+"../main.c", line 22: error #20: identifier "ADCSHT" is undefined
+"../main.c", line 23: error #20: identifier "ADCSHT_2" is undefined
+"../main.c", line 24: error #20: identifier "ADCON" is undefined
+"../main.c", line 26: error #20: identifier "ADCCTL1" is undefined
+"../main.c", line 26: error #20: identifier "ADCSSEL_2" is undefined
+"../main.c", line 27: error #20: identifier "ADCSHP" is undefined
+"../main.c", line 29: error #20: identifier "ADCCTL2" is undefined
+"../main.c", line 29: error #20: identifier "ADCRES" is undefined
+"../main.c", line 30: error #20: identifier "ADCRES_2" is undefined
+"../main.c", line 32: error #20: identifier "ADCMCTL0" is undefined
+"../main.c", line 32: error #20: identifier "ADCINCH_2" is undefined
+"../main.c", line 36: error #20: identifier "ADCENC" is undefined
+"../main.c", line 36: error #20: identifier "ADCSC" is undefined
+"../main.c", line 38: error #20: identifier "ADCIFG" is undefined
+"../main.c", line 38: error #20: identifier "ADCIFG0" is undefined
+"../main.c", line 40: error #20: identifier "ADCMEM0" is undefined
+"../main.c", line 38: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Asm_ALU_ADD,org.eclipse.launchbar.core.descriptorType.default\:Asm_ALU_ADDC,org.eclipse.launchbar.core.descriptorType.default\:Asm_ALU_Rot,org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode1,org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode2,org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode3,org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode4,org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode5,org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode6,org.eclipse.launchbar.core.descriptorType.default\:Asm_BIS_BIC,org.eclipse.launchbar.core.descriptorType.default\:Asm_BIT_Test,org.eclipse.launchbar.core.descriptorType.default\:Asm_Blinky,org.eclipse.launchbar.core.descriptorType.default\:Blinky,org.eclipse.launchbar.core.descriptorType.default\:Asm_Logic,org.eclipse.launchbar.core.descriptorType.default\:Asm_While
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Asm_ALU_ADD/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Asm_ALU_ADD/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode1/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Asm_AddMode1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Asm_Blinky/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Asm_Blinky/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Blinky/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Blinky/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

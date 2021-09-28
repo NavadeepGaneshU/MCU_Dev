@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xAdc_TempSensorConv,org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xLEDBlink,org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xLEDBlink_editz
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Blinky/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Blinky/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xAdc_TempSensorConv/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xAdc_TempSensorConv/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xLEDBlink/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Example_F2802xLEDBlink/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

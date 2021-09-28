@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project Hello123 ****
+
+"D:\\Softwares\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../hello.c"
+Invoking: C2000 Compiler
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/bin/cl2000" -v28 -ml -mt --include_path="D:/Projects/MCU_Dev/TI_MCU/F28027/Hello123" --include_path="D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/include" -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="hello.d_raw"  "../hello.c"
+Finished building: "../hello.c"
+ 
+Building target: "Hello123.out"
+Invoking: C2000 Linker
+"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/bin/cl2000" -v28 -ml -mt -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"Hello123.map" --warn_sections -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/lib" -i"D:/Softwares/TI/ccs/tools/compiler/ti-cgt-c2000_20.2.5.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Hello123_linkInfo.xml" --rom_model -o "Hello123.out" "./hello.obj"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10247-D: creating output section ".cinit" without a SECTIONS specification
+warning #10247-D: creating output section ".esysmem" without a SECTIONS specification
+warning #10247-D: creating output section ".econst" without a SECTIONS specification
+warning #10247-D: creating output section ".reset" without a SECTIONS specification
+warning #10247-D: creating output section ".ebss" without a SECTIONS specification
+warning #10247-D: creating output section ".cio" without a SECTIONS specification
+warning #10210-D: creating ".stack" section with default size of 0x400; use the -stack option to change the default size
+warning #10210-D: creating ".esysmem" section with default size of 0x400; use the -heap option to change the default size
+Finished building target: "Hello123.out"
+ 
+
+**** Build Finished ****
