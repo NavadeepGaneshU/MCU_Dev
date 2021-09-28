@@ -1,8 +1,0 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
-
-USER_OBJS :=
-
-LIBS := -l"D:/Softwares/TI/C2000Ware_3_04_00_00_Software/device_support/f2802x/common/cmd/F2802x_generic_ram.cmd" -lrts2800_ml.lib -lIQmath.lib
-
